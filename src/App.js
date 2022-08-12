@@ -6,8 +6,8 @@ function App() {
     return (
         <BrowserRouter basename="/">
             <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route exact path="/movie/:id" element={<Detail />} />
+                <Route exact path="/movie-app" element={<Home />} />
+                <Route path="/movie/:id" element={<Detail />} />
             </Routes>
         </BrowserRouter>
     );
